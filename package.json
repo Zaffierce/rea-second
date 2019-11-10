@@ -1,0 +1,16 @@
+{
+  "name": "Second",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Secondbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.0",
+    "node-schedule": "^1.3.2"
+  }
+}
