@@ -24,11 +24,11 @@ client.on('error', console.error);
 //Morning Greetings
 
 var morningDay1 = schedule.scheduleJob('0 8 * * 1', function(){
-	client.channels.get('575342498063319102').send("Heyyyyyy! How's everyone doing this morning?");
+	client.channels.get('601509396555497504').send("Heyyyyyy! How's everyone doing this morning?");
 });
 
 var morningDay5 = schedule.scheduleJob('0 8 * * 5', function(){
-	client.channels.get('575342498063319102').send("Heeeeeeey Good evening! Hm? It's gotta be evening somewhere riiight!?");
+	client.channels.get('601509396555497504').send("Heeeeeeey Good evening! Hm? It's gotta be evening somewhere riiight!?");
 });
 
 //Custom-Commands
