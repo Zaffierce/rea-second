@@ -59,6 +59,10 @@ client.on('message', message => {
 
 });
 
+client.on('guildMemberAdd', (member) => {
+	member.guild.channels.find(c => c.id === "601509396555497504").send(`Greetings <@${member.user.id}>! Welcome to our Kingdom, if you're looking for any information please check out ${client.channels.find(c => c.id === "575390364437839882").toString()} information.`);
+});
+
 
 //Bot logs in
 client.login(token);
